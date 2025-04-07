@@ -1,0 +1,14 @@
+stackbitVersion: ~0.5.0
+cmsName: git
+
+modelsSource:
+  type: files
+  file: models
+
+contentModels:
+  - name: page
+    label: Page
+    type: page
+    filePathPattern: 'content/pages/{slug}.md'
+
+pagesDir: content/pages
